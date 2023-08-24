@@ -1,0 +1,49 @@
+@charset "UTF-8";
+:root{
+    --Kinda-black:#1F1F1F;
+    --Bistre:#422823;
+    --Rose-taupe:#8B635C;
+    --Ecru:#DCBF85;
+    --Lapiz-lazuli:#006184;
+    --Steel-blue:#3C87C4;
+    --font-color:whitesmoke;
+}
+
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+
+.content-container {
+    margin:0vw 10vw;
+    max-width: 80vw;
+
+}
+header{
+    background-color:var(--Kinda-black);
+    color:var(--font-color);
+    max-width: 100vw;
+
+}
+#navegation-menu{
+    display:flex;
+    list-style: none;
+    justify-content: center;
+    gap:35px;
+}
+
+
+section{
+    min-height: 100vh;
+
+}
+
+footer{
+    bottom:0px;
+    left: 0px;
+    background-color:var(--Kinda-black);
+    color:whitesmoke;
+
+}
