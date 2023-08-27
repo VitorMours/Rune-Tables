@@ -7,3 +7,11 @@ views = Blueprint("views", __name__)
 def index():
     return render_template("index.jinja")
 
+@views.route("/login")
+def login():
+    return render_template("login.jinja")
+
+@views.route("/signup")
+def signup():
+    return render_template("signup.jinja")
+

@@ -8,6 +8,20 @@
 <body>
     <header>
         {% block header %}
+        <div class="content-container">
+            <img src="..\\static\\img\\logo.png" alt="Logo do site">
+            <!--Colocar imagem do site, deve ser uma mesa com inscrições runicas-->
+        </div>
+
+
+        <nav>
+            <div class="content-container">
+                <ul id="credentials-menu">
+                    <li><a target="_self" href="loginc">Log In</a></li>
+                    <li><a target="_self" href="signup.jinja">Sign Up</a></li>
+                </ul>
+            </div>
+        </nav>
         {% endblock %}
     </header>
     <main>

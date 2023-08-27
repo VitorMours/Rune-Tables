@@ -18,4 +18,4 @@ if __name__ == "__main__":
             usuario = api.CharacterCreator()
             print(usuario)
 
-            app.run_app()
+            app.run_app(debug=True)

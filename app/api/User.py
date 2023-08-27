@@ -3,3 +3,4 @@ class User:
         self.name = name
         self.gender = gender
         self.email = email
+        self.__password = None
