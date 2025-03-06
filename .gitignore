@@ -40,6 +40,7 @@ coverage.xml
 .pydevproject
 venv/
 instance/
+migrations/
 # Rope
 .ropeproject
 
